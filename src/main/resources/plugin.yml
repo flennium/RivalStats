@@ -1,0 +1,13 @@
+name: RivalStats
+version: '1.0'
+main: org.flennn.RivalStats
+api-version: '1.20'
+commands:
+  reloadstats:
+    description: Reloads the stats and config.
+    usage: /reloadstats
+    permission: rivalstats.reload
+permissions:
+  rivalstats.reload:
+    description: Allows reloading the stats and config.
+    default: op

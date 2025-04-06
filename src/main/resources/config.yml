@@ -1,0 +1,28 @@
+# RivalStats Plugin Configuration
+# Customize how stats are tracked and stored
+
+servername: "NOT DEFINED"
+
+mysql:
+  host: "localhost"
+  database: "rivalcore"
+  user: "root"
+  password: ""
+
+settings:
+  # Enable or disable individual stat tracking
+  track_kills: true
+  track_deaths: true
+  track_joins: true
+  track_quits: true
+  track_blocks_placed: true
+  track_blocks_broken: true
+  track_items_dropped: true
+  track_items_picked_up: true
+  track_food_eaten: true
+  track_damage_dealt: true
+  track_damage_taken: true
+
+  # Debugging settings (set to true to enable detailed logging)
+  debug: false
+
